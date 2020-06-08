@@ -71,7 +71,7 @@ body {
 
 .header__nav {
    position: absolute;
-   top: 25px;
+   top: 35px;
    display: flex;
    z-index: 2;
    font-family: "Montserrat", sans-serif;
@@ -84,7 +84,6 @@ body {
 }
 
 .header__nav h4 {
-   width: 90px;
    display: inline-block;
    margin-right: 10px;
    font-weight: 900;
@@ -117,14 +116,14 @@ body {
 }
 
 .header__nav .header__nav-links li:not(:last-child) {
-   margin-right: 12px;
+   margin-right: 32px;
 }
 
 .header__nav .header__nav-links li a {
    display: inline-block;
    color: white;
    text-decoration: none;
-   font-weight: 500;
+   font-weight: 300;
    font-size: 16px;
 }
 
@@ -167,49 +166,49 @@ body {
  }
  
  #first-image {
-    background: url("/assets/img/facilities/multi-storey-car-park-1271919_1280.jpg")
+    background: url(../img/facilities/multi-storey-car-park-1271919_1280.jpg)
        no-repeat center center/cover;
     width: 409px;
     height: 409px;
  }
  #second-image {
-    background: url("/assets/img/facilities/bell-2899920_960_720.jpg") no-repeat
+    background: url(../img/facilities/bell-2899920_960_720.jpg) no-repeat
        center center/cover;
     width: 409px;
     height: 409px;
  }
  #third-image {
-    background: url("/assets/img/facilities/dumbbells-2465478_1280-1024x682.jpg")
+    background: url(../img/facilities/dumbbells-2465478_1280-1024x682.jpg)
        no-repeat center center/cover;
     width: 409px;
     height: 409px;
  }
  #fourth-image {
-    background: url("/assets/img/facilities/tv-3914155_1280.jpg") no-repeat
+    background: url(../img/facilities/tv-3914155_1280.jpg) no-repeat
        center center/cover;
     width: 409px;
     height: 409px;
  }
  #fifth-image {
-    background: url("/assets/img/facilities/breakfast-1209223_1280.jpg")
+    background: url(../img/facilities/breakfast-1209223_1280.jpg)
        no-repeat center center/cover;
     width: 409px;
     height: 409px;
  }
  #sixth-image {
-    background: url("/assets/img/facilities/bloggers-2209507_1280.jpg") no-repeat
+    background: url(../img/facilities/bloggers-2209507_1280.jpg) no-repeat
        center center/cover;
     width: 409px;
     height: 409px;
  }
  #seventh-image {
-    background: url("/assets/img/facilities/bus-690508_1280.jpg") no-repeat
+    background: url(../img/facilities/bus-690508_1280.jpg) no-repeat
        center center/cover;
     width: 409px;
     height: 409px;
  }
  #eight-image {
-    background: url("/assets/img/facilities/dog-2606759_1280-1024x729.jpg")
+    background: url(../img/facilities/dog-2606759_1280-1024x729.jpg)
        no-repeat center center/cover;
     width: 409px;
     height: 409px;
@@ -236,7 +235,7 @@ body {
  
  .contact-us::before {
     content: "";
-    background: url("/assets/img/facilities/house-5148865_1920.jpg") no-repeat
+    background: url(../img/facilities/house-5148865_1920.jpg) no-repeat
        center center/cover;
     height: 557px;
     width: 100%;
@@ -459,37 +458,36 @@ body {
      }
      
      #first-image {
-        background: url("/assets/img/facilities/multi-storey-car-park-1271919_1280.jpg")
+        background: url(../img/facilities/multi-storey-car-park-1271919_1280.jpg)
            no-repeat center center/cover;
      }
      #second-image {
-        background: url("/assets/img/facilities/bell-2899920_960_720.jpg") no-repeat
+        background: url(../img/facilities/bell-2899920_960_720.jpg) no-repeat
            center center/cover;
      }
      #third-image {
-        background: url("/assets/img/facilities/dumbbells-2465478_1280-1024x682.jpg")
+        background: url(../img/facilities/dumbbells-2465478_1280-1024x682.jpg)
            no-repeat center center/cover;
      }
      #fourth-image {
-        background: url("/assets/img/facilities/tv-3914155_1280.jpg") no-repeat
+        background: url(../img/facilities/tv-3914155_1280.jpg) no-repeat
            center center/cover;
      }
      #fifth-image {
-        background: url("/assets/img/facilities/breakfast-1209223_1280.jpg")
+        background: url(../img/facilities/breakfast-1209223_1280.jpg)
            no-repeat center center/cover;
      }
      #sixth-image {
-        background: url("/assets/img/facilities/bloggers-2209507_1280.jpg") no-repeat
+        background: url(../img/facilities/bloggers-2209507_1280.jpg) no-repeat
            center center/cover;
 
      }
      #seventh-image {
-        background: url("/assets/img/facilities/bus-690508_1280.jpg") no-repeat
+        background: url(../img/facilities/bus-690508_1280.jpg) no-repeat
            center center/cover;
      }
      #eight-image {
-        background: url("/assets/img/facilities/dog-2606759_1280-1024x729.jpg")
-           no-repeat center center/cover;
+         background: url(../img/facilities/dog-2606759_1280-1024x729.jpg) no-repeat center center/cover;
      }
      
      .facility-caption {
